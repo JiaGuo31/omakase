@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     var topics = ['Digital','Sustainability','Science_Engineering',
                     'Wellness','Arts','Personal_Development'];
-    
+    console.log('1131')
 
     let userChoices = {
         step2: '',
