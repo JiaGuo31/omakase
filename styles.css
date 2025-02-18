@@ -289,13 +289,13 @@ button {
 
 #chef-box{
     float:left;
-    width: 100px;
+    width: 70px;
     margin-top: 50px;
 }
 
 #reason-box{
     float:left;
-    width: 250px;
+    width: 230px;
     border-radius: 10px;
     background-color: #fff;
     font-size: 11px;
