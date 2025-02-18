@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     document.getElementById("id_check").innerHTML = 'Password 1: ' + randomIdOne;
     
-    fetch("myText.txt")
+    fetch("myText2.txt")
         .then((res) => res.text())
         .then((text) => {
 //            console.log(text);
