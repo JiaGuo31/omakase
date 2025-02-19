@@ -43,18 +43,19 @@ button {
     transition: background-color 0.3s;
 }
 
-.grey-button {
+/*.grey-button {
     background-color: #ccc;
 	font-family: 'Comfortaa', sans-serif;
 	width: 200px;
         color: #323232;
-}
+}*/
+
 
 .red-button {
     background-color: #0b42ab;
-	font-family: 'Comfortaa', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     color: white;
-	width: 200px;
+    width: 200px;
 }
 
 .progress-bar {
@@ -122,9 +123,25 @@ button {
     gap: 10px;
 }
 
+.grey-button {
+    background-color: #ff6f19;
+    width: 200px;
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.grey-button:hover {
+    background-color: #0b42ab;
+}
+
 .option-button {
-    background-color: #ccc;
-    color: #323232;
+    background-color: #ff6f19;
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.option-button:hover {
+    background-color: #0b42ab;
 }
 
 .option-button.selected {
@@ -164,9 +181,19 @@ button {
 .surprise-button {
     width: 100%;
     max-width: 250px; 
-    background-color: #ccc;
+    background-color: #ff6f19;
     padding: 10px 0; /* Adjust vertical padding as needed */
+    font-family: 'Comfortaa', sans-serif;
 }
+
+.surprise-button:hover {
+    background-color: #0b42ab;
+}
+
+
+
+
+
 
 .recommendation-box {
     background-color: #f0f0f0;
@@ -267,7 +294,7 @@ button {
 
 .start-over-button {
     margin-top: 30px;
-    background-color: #08090a;
+    background-color: #229831;
     color: white;
     padding: 10px 20px;
     font-size: 16px;
@@ -279,7 +306,7 @@ button {
     font-family: 'Comfortaa', sans-serif;
 }
 .start-over-button:hover {
-    background-color: #0b42ab;
+    background-color: #000;
 }
 
 
