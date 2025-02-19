@@ -65,8 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
     
     startButton.addEventListener('click', () => {
-        startButton.classList.remove('grey-button');
-        startButton.classList.add('red-button');
+//        startButton.classList.remove('grey-button');
+//        startButton.classList.add('red-button');
         setTimeout(() => {
             step1.classList.add('hidden');
             step2.classList.remove('hidden');
@@ -503,7 +503,7 @@ document.addEventListener('DOMContentLoaded', () => {
     [step3, step4].forEach(step => {
         const startOverButton = document.createElement('button');
         startOverButton.className = 'start-over-button'; // Updated class
-        startOverButton.textContent = 'Start Over';
+        startOverButton.textContent = 'START OVER';
         startOverButton.addEventListener('click', () => {
             userChoices = { step2: '', step3: '', step4: '', step5: '' };
             document.querySelectorAll('.step').forEach(step => step.classList.add('hidden'));
